@@ -98,3 +98,44 @@ hr {
     color:
         #562EFF;
 }
+
+/* Adding style to the course section */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 23.61px;
+}
+
+.course-banner img {
+    height: 104px;
+    width: 224px;
+}
+
+.course-title {
+    font-size: 20.03px;
+    font-weight: 500;
+}
+
+.course-author {
+    color:
+        #ED6B4F;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-star {
+    height: 12px;
+    width: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
